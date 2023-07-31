@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            place-content: center;
+          
+        }
+      
+        .container{
+            height: 200px;
+            border: 2px solid black;
+            text-align: justify;
+            border-radius: 20px;
+            overflow: hidden;
+
+        }
+        input{
+            margin: 10px;
+            border-radius: 20px;
+            height: 25px;
+        }
+        label{
+            margin-left: 7px;
+        }
+        select{
+            margin-left: 70px;
+            width: 100px;
+            
+        }
+                .btn{
+            color: rgb(52, 54, 55) ;
+            background-color: skyblue;
+            width: 300px;
+            margin-top: 30px;
+            height: 50px;
+            border-bottom-right-radius: 20px     ;
+            border-bottom-left-radius: 20px;
+        }
+        .btn:hover{
+            color: skyblue;
+            background-color:rgb(52, 54, 55) ;
+
+        }
+        option{
+            border-radius: 7px;
+        }
+        
+        .result
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+           <center>
+
+               Simple Calulator
+           </center> 
+        </h1>
+    </header>
+    <div class="container">
+
+       
+                    
+                    <label for="numberone">Enter number :</label>
+                
+                    
+                    <input type="number" name="Name" id="numberone" inputmode="numeric"  ><br>
+     
+      <label for="numbertwo">Enter number :</label>
+    
+        
+        <input type="number" id="numbertwo">
+        <br>
+        <label for="operator">
+
+            Opertaion:
+        </label>
+        <select name="op" id="operator">
+            <option value="select">Select</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <br>
+        <center>
+
+          <button class="btn" onclick="cal()" >calculate</button>
+        </center>
+    
+</div>
+<h5 id="result" class="result">The result is  </h5>
+<script src="cal.js"></script>
+</body>
+</html>

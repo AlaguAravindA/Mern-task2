@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    place-content: center;
+
+}
+.container{
+    border: 2px solid black;
+    width: 348px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+h1{
+    font-family: fantasy;
+    
+
+}
+input{
+    height: 50px;
+    border-radius: 20px;
+    width: 300px
+    
+}
+button{
+    color: red;
+    height: 50px;
+    width: 40px;
+   font-size: 20px;
+    border-radius: 10px;
+}
+p{
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+    height: 38px;
+}
