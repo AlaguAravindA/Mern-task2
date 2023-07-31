@@ -1,3 +1,5 @@
+alert("Click on the '+' icon to add work")
+alert("Double click to remove the work")
 let addbtn=document.getElementById("add");
 let todocontainer=document.getElementById("todoconatiner");
 let work = document.getElementById("work")
